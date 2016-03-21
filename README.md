@@ -1,7 +1,7 @@
-# Sample Flask application as Thrift service
-Sample Flask application that works as Thrift service. This is based on
-[@BeanYoung's](https://gist.github.com/BeanYoung/8318363). The client is using
-PHP.
+# Sample Thrift service using Flask application
+Sample Flask application that works as Thrift service. While Thrift python library itself provide its own built-in application to handle the Thrift requests, this is just a small experiment I did. 
+
+This is based on [@BeanYoung's](https://gist.github.com/BeanYoung/8318363). The client is using PHP.
 
 ## Requirements
 This sample is tested with

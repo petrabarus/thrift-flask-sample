@@ -5,6 +5,7 @@ PHP.
 
 ## Requirements
 This sample is tested with
+
 - GNU Make 3.81 (Or if you don't have, see simple commands in Makefile)
 - Python 2.7
 - Pip 8.0.0
@@ -13,6 +14,7 @@ This sample is tested with
 
 ## Important Files
 There are three important files to see.
+
 1. `geometry.thrift` is the Thrift definition for Point struct and distance calculator service.
 2. `application.py` is the Flask application source code.
 3. `application.php` is the PHP client source code.

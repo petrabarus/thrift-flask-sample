@@ -1,19 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "bbfa2c05d54e7f1536a6be5979e04719",
-    "content-hash": "100476428643e33cac89e8c06d237442",
+    "content-hash": "ae159d3b275aa4a2b4664b6ca6e02173",
     "packages": [
         {
             "name": "apache/thrift",
             "version": "0.9.2",
             "source": {
                 "type": "git",
-                "url": "https://git-wip-us.apache.org/repos/asf/thrift.git",
-                "reference": "91e955aac256f34d177b40bf73997eddda461456"
+                "url": "https://github.com/apache/thrift.git",
+                "reference": "591e20f9636c37527a70dc03598218c3468a0eff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/apache/thrift/zipball/591e20f9636c37527a70dc03598218c3468a0eff",
+                "reference": "591e20f9636c37527a70dc03598218c3468a0eff",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -29,7 +34,6 @@
                     "Thrift": "lib/php/lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -42,7 +46,12 @@
             ],
             "description": "Apache Thrift RPC system",
             "homepage": "http://thrift.apache.org/",
-            "time": "2014-11-05 02:12:20"
+            "support": {
+                "email": "dev@thrift.apache.org",
+                "issues": "https://issues.apache.org/jira/browse/THRIFT",
+                "source": "https://github.com/apache/thrift/tree/0.9.2"
+            },
+            "time": "2014-11-05T02:12:20+00:00"
         }
     ],
     "packages-dev": [],
